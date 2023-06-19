@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">BankManagementSystem</string>
+
+    <string-array name="Religion">
+        <item> Christian </item>
+        <item> Muslim </item>
+        <item> Sikh </item>
+        <item> Hindu </item>
+        <item> Other </item>
+    </string-array>
+
+    <string-array name="Category">
+        <item> General</item>
+        <item> D@C</item>
+        <item> SC</item>
+        <item>ST</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="Income">
+        <item> Null </item>
+        <item> Less than 5,000</item>
+        <item>  Up to 5,000</item>
+        <item>  Up to 10,000 </item>
+        <item> Up to 20 000</item>
+        <item> Greater than 30 000</item>
+
+    </string-array>
+
+    <string-array name="EducationalQualification">
+        <item> Non-Graduate</item>
+        <item> Graduate</item>
+        <item> Post-Graduate</item>
+        <item> Other</item>
+    </string-array>
+
+    <string-array name="Occupation">
+        <item> Salary </item>
+        <item> Self- Employed</item>
+        <item> Business </item>
+        <item> Retired </item>
+        <item> Other </item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

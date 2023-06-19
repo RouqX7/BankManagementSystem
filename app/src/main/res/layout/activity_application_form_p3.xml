@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.ApplicationFormP3">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="28dp"
+        android:text="Page 3: Account Details"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="86dp"
+        android:text="Account Type:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkbSavingsAcc"
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="28dp"
+        android:button="@drawable/custom_checkbox"
+        android:scaleX="0.35"
+        android:scaleY="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textColor="@color/black"
+        android:text="Savings Account"
+        app:layout_constraintStart_toEndOf="@+id/checkbSavingsAcc"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <CheckBox
+        android:id="@+id/checkbFixedAcc"
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="104dp"
+        android:button="@drawable/custom_checkbox"
+        android:scaleX="0.35"
+        android:scaleY="0.35"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="56dp"
+        android:text="Fixed Account"
+        app:layout_constraintStart_toEndOf="@+id/checkbFixedAcc"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <CheckBox
+        android:id="@+id/checkbCurrentAcc"
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:button="@drawable/custom_checkbox"
+        android:scaleX="0.35"
+        android:scaleY="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbSavingsAcc" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"
+        android:text="Current Account"
+        app:layout_constraintStart_toEndOf="@+id/checkbCurrentAcc"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <CheckBox
+        android:id="@+id/checkbRecurringDepositAcc"
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="12dp"
+        android:button="@drawable/custom_checkbox"
+        android:scaleX="0.35"
+        android:scaleY="0.35"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/checkbFixedAcc" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"
+        android:text="Recurring Deposit Account"
+        app:layout_constraintStart_toEndOf="@+id/checkbRecurringDepositAcc"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="30dp"
+        android:text="Card Number:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbCurrentAcc" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="32dp"
+        android:text="XXXX-XXXX-XXXX-4184"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/checkbRecurringDepositAcc" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="5dp"
+        android:text="Your 16-digit Card Number"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="5dp"
+        android:text="It will appear on ATM Card/Cheque Book and Statements"
+        android:textColor="@color/black"
+        android:textSize="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="21dp"
+        android:text="PIN:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="XXXX"
+        app:layout_constraintStart_toEndOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="3dp"
+        android:text="(4-Digit password)"
+        android:textSize="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="21dp"
+        android:textColor="@color/black"
+        android:text="Services Required:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <CheckBox
+        android:id="@+id/atmCheckB"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:text="ATM CARD"
+        android:textSize="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <CheckBox
+        android:id="@+id/mobBankingCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginStart="28dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"
+        android:text="Mobile Banking"
+        android:textSize="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/atmCheckB" />
+
+    <CheckBox
+        android:id="@+id/chequeBookCheckB"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginStart="28dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"
+        android:text="Cheque Book"
+        android:textSize="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobBankingCheckBox" />
+
+    <CheckBox
+        android:id="@+id/eStatementCheckB"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="12dp"
+        android:text="E-Statement"
+        android:textSize="8dp"
+        app:layout_constraintStart_toEndOf="@+id/chequeBookCheckB"
+        app:layout_constraintTop_toBottomOf="@+id/emailAlertsCheckB" />
+
+    <CheckBox
+        android:id="@+id/emailAlertsCheckB"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="12dp"
+        android:text="EMAIL Alerts"
+        android:textSize="8dp"
+        app:layout_constraintStart_toEndOf="@+id/mobBankingCheckBox"
+        app:layout_constraintTop_toBottomOf="@+id/internetBCheckB" />
+
+    <CheckBox
+        android:id="@+id/internetBCheckB"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginStart="121dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="78dp"
+        android:text="Internet Banking"
+        android:textSize="8dp"
+        app:layout_constraintStart_toEndOf="@+id/atmCheckB"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <CheckBox
+        android:id="@+id/declarationCheckB"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="43dp"
+        android:text="I hereby declare that the above entered details are correct to the best of my knowledge"
+        android:textColor="@color/black"
+        android:textSize="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eStatementCheckB" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/submitBtn"
+        android:layout_width="71dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/black"
+        android:text="Submit"
+        android:textSize="9dp"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/declarationCheckB" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cancelBtn"
+        android:layout_width="71dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/black"
+        android:text="Cancel"
+        android:textSize="8dp"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/submitBtn"
+        app:layout_constraintTop_toBottomOf="@+id/declarationCheckB" />
+</androidx.constraintlayout.widget.ConstraintLayout>
